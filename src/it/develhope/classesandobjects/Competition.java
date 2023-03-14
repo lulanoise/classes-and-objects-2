@@ -14,15 +14,12 @@ public class Competition {
     competitionRules.getInstance();
     competitionRules.printRules();
 
-        // create teams
         Team teamA = new Team();
         Team teamB = new Team();
 
-        // assign random values to team names
         teamA.teamName = "Griffyndor";
         teamB.teamName = "Slytherin";
 
-        // assign random values to teamA's programmers
         teamA.p1 = new Programmer();
         teamA.p1.name = "Harry";
         teamA.p1.programmingLanguage = "Java";
@@ -33,7 +30,6 @@ public class Competition {
         teamA.p2.programmingLanguage = "C++";
         teamA.p2.yearsOfExperience = 3;
 
-        // assign random values to teamB's programmers
         teamB.p1 = new Programmer();
         teamB.p1.name = "Draco";
         teamB.p1.programmingLanguage = "JavaScript";
@@ -44,7 +40,7 @@ public class Competition {
         teamB.p2.programmingLanguage = "Python";
         teamB.p2.yearsOfExperience = 4;
 
-        // print teams details
+
         System.out.println("Team A:");
         teamA.printTeamDetails();
         System.out.println("Team B:");

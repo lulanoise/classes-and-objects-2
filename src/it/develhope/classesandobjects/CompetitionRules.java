@@ -25,5 +25,3 @@ public class CompetitionRules {
     }
 
 }
-
-//il singleton è un pattern
